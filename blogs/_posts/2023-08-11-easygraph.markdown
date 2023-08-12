@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Quick Overview of EasyGraph: A Comprehensive and Efficient Open-Source Tool for Graph Analysis and Social Computing"
-date:   2023-08-10 15:04:08 +0800
+date:   2023-08-11 21:53:52 +0800
 categories: jekyll update
 ---
+
 A graph is a primitive representation of relationships between entities, and it allows for a profound and direct understanding of the associations in the world. Typical applications of graph data include social networks, transaction data, knowledge graphs, transportation systems, biotechnology, and etcetera.Social networks are a specific type of graph data which is built upon the foundation of graph networks and guided by certain sociological theories.
 
 Graph Analysis focuses on analyzing the strength and direction of relationships between entities in graph data, thereby uncovering features and assisting in decision-making.
