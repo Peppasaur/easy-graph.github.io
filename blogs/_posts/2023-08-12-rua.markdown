@@ -1,29 +1,39 @@
 ---
 layout: post
-title:  "rua"
+title:  "Quick Overview of EasyGraph: A Comprehensive and Efficient Open-Source Tool for Graph Analysis and Social Computing"
 date:   2023-08-12 10:18:43 +0800
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+A graph is a primitive representation of relationships between entities, and it allows for a profound and direct understanding of the associations in the world. Typical applications of graph data include social networks, transaction data, knowledge graphs, transportation systems, biotechnology, and etcetera.Social networks are a specific type of graph data which is built upon the foundation of graph networks and guided by certain sociological theories.
 
-Jekyll requires blog post files to be named according to the following format:
+Graph Analysis focuses on analyzing the strength and direction of relationships between entities in graph data, thereby uncovering features and assisting in decision-making.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+EasyGraph is an open-source graph analysis package based on the Python language, developed by the MSN team at Fudan University. **Compared to existing open-source libraries focusing on graph analysis such as igraph and NetworkX, EasyGraph offers a more comprehensive set of social network analysis methods grounded in sociological theories.** Its main functionalities include the following:
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+1. The first open-source library that includes a comprehensive set of structural hole spanner detection methods (for more understanding of the structural hole theory: [Structural Hole Theory in Social Network Analysis: A Review | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9406195))
 
-Jekyll also offers powerful support for code snippets:
+2. Graph embedding algorithms like DeepWalk, Node2Vec, LINE, SDNE, etc.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+3. Classic network algorithms for community detection, centrality analysis, component analysis, clustering, etc.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+4. Improved runtime efficiency through hybrid programming and parallel computing.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+5. A collection of visualization methods for complex networks.
+
+6. Including various classic datasets.
+
+   # EasyGraph’s structure:
+
+   ![img](https://miro.medium.com/v2/resize:fit:674/0*piZO5RtU0jjEoZGy.png)
+
+   ​
+
+   With this architecture, EasyGraph can be applied in various domains such as biology, transportation, chemistry, social sciences, ecology, and more for graph data analysis.
+
+   # Take a deeper look into Easygraph:
+
+   Github：[easy-graph/Easy-Graph: EasyGraph is an open source graph processing library, which covers advanced graph processing methods in structural hole spanners detection, graph embedding and several classic methods. (github.com)](https://github.com/easy-graph/Easy-Graph)
+
+   Documentation：[EasyGraph by FudanMSN (easy-graph.github.io)](https://easy-graph.github.io/?utm_source=CSDN&utm_medium=article)
+
+   Quickly start through Video Tutorials：[Tutorials — YouTube](https://www.youtube.com/playlist?list=PLcvrOp9f5pLSX9O8Gn4Zmz45VnOq7Pnuh)
